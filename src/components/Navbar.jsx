@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <hr></hr>
       <h1 style={{ backgroundColor: "lavender", fontSize: "30px" }}>
-        Your Name
+        SOWBURNIKA U N
       </h1>
       <hr></hr>
     </div>

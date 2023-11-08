@@ -4,9 +4,13 @@ const Footer = () => {
   return (
     <div>
       <hr></hr>
-
-      <h3>Copyrights@2023</h3>
-
+      <br></br>
+      <h2>
+        <i>
+          <center>Copyrights@2023</center>
+        </i>
+      </h2>
+      <br></br>
       <hr></hr>
     </div>
   );

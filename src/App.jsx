@@ -19,10 +19,8 @@ export default App; //Default exports*/
 
 const App = () => {
   return <HelloWorld />;
-};
-
-export default App;*/
-
+};*/
+/*export default App;
 /*import Cricket from "./day3/Cricket";
 
 const App = () => {
@@ -31,7 +29,7 @@ const App = () => {
 
 export default App;*/
 
-import Button from "./day3/Button";
+/*import Button from "./day3/Button";
 function App() {
   return (
     <div className="flex space-x-10 my-8">
@@ -41,6 +39,37 @@ function App() {
       <Button color="green">Green Button</Button>
     </div>
   );
+}*/
+
+import { useState } from "react";
+import Cart from "./day4/Cart";
+import Menu from "./day4/Menu";
+import Navbar from "./day4/Navbar";
+import categories from "./day4/products";
+function App() {
+  const [activeCategory, setActiveCategory] = useState(categories[0]);
+  const [products, setProducts] = useState([]);
+
+  const handleClick = (index) => {
+    setActiveCategory(categories[index]);
+  };
+
+  const handleAddToCart = (item) => {
+    setProducts([...products, item]);
+  };
+
+  return (
+    <div className="space-y-4 my-4">
+      <Navbar category={categories} handleClick={handleClick} />
+      <Menu activeCategory={activeCategory} handleAddToCart={handleAddToCart} />
+      <Cart products={products} />
+    </div>
+  );
 }
 
+/*import DynamicRendering from "./day3/DynamicRendering";
+const App = () => {
+  return <DynamicRendering />;
+};
+*/
 export default App;

@@ -72,10 +72,15 @@ const App = () => {
   return <DynamicRendering />;
 };
 */
-import Counter from "./day3/Counter";
+/*import Counter from "./day3/Counter";
 
 const App = () => {
   return <Counter />;
 };
+*/
+import ToggleMessage from "./day3/ToggleMessage";
 
+const App = () => {
+  return <ToggleMessage />;
+};
 export default App;

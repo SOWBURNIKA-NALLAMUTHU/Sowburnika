@@ -78,9 +78,15 @@ const App = () => {
   return <Counter />;
 };
 */
-import ToggleMessage from "./day3/ToggleMessage";
+/*import ToggleMessage from "./day3/ToggleMessage";
 
 const App = () => {
   return <ToggleMessage />;
+};*/
+import GokuTransformation from "./day3/GokuTransformation";
+
+const App = () => {
+  return <GokuTransformation />;
 };
+
 export default App;

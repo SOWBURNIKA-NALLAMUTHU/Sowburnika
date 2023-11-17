@@ -10,7 +10,7 @@ const LoginPageTwo = () => {
 
   return (
     <Box width="100%" height="100vh" display="flex">
-      <Box width="60%">
+      <Box width="70%">
         <img
           src="https://img.freepik.com/free-photo/set-christmas-presents-with-golden-ribbon-globes_23-2148343314.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699574400&semt=ais"
           alt="Your Image Alt Text"

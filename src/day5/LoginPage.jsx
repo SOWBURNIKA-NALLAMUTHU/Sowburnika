@@ -6,7 +6,6 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    // Handle login logic here
     console.log(`Logging in with email: ${email} and password: ${password}`);
   };
 
@@ -18,16 +17,16 @@ const LoginPage = () => {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
-        //backgroundColor: "teal",
+        backgroundColor: "teal",
         backgroundImage:
-          "url('https://e1.pxfuel.com/desktop-wallpaper/931/255/desktop-wallpaper-pulsar-220-login-page.jpg')", // Replace with your image URL
+          "url('https://img.freepik.com/free-photo/set-christmas-presents-with-golden-ribbon-globes_23-2148343314.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699574400&semt=ais')", // Replace with your image URL
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       <Paper
         elevation={8}
-        style={{ padding: "30px", width: "800px", height: "300px" }}
+        style={{ padding: "30px", width: "600px", height: "300px" }}
       >
         <Typography variant="h6" align="center">
           LOGIN

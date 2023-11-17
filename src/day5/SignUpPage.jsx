@@ -27,7 +27,7 @@ const SignUpPage = () => {
     height: "100vh",
     backgroundImage:
       "url('https://e1.pxfuel.com/desktop-wallpaper/931/255/desktop-wallpaper-pulsar-220-login-page.jpg')", // Replace with your image URL
-    backgroundSize: "cover",
+    backgroundSize: "contain",
     backgroundPosition: "center",
   };
 
@@ -81,7 +81,7 @@ const SignUpPage = () => {
             variant="contained"
             color="success"
             onClick={handleSignUp}
-            style={{ marginTop: 20 }}
+            style={{ marginTop: 10 }}
           >
             Sign Up
           </Button>

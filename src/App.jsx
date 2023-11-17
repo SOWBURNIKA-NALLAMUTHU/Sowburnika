@@ -91,17 +91,18 @@ const App = () => {
 };*/
 
 // src/App.js
-/*import LoginPage from "./day5/LoginPage";
+import LoginPage from "./day5/LoginPage";
+import LoginPageTwo from "./day5/LoginPageTwo";
 
 function App() {
   return (
     <div>
-      <LoginPage />
+      <LoginPageTwo />
     </div>
   );
-}*/
+}
 
-import SignUpPage from "./day5/SignUpPage";
+/*import SignUpPage from "./day5/SignUpPage";
 
 const App = () => {
   return (
@@ -109,7 +110,7 @@ const App = () => {
       <SignUpPage />
     </div>
   );
-};
+};*/
 /*import Style from "./day2/Style";
 
 function App() {

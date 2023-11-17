@@ -102,15 +102,6 @@ function App() {
   );
 }
 
-/*import SignUpPage from "./day5/SignUpPage";
-
-const App = () => {
-  return (
-    <div>
-      <SignUpPage />
-    </div>
-  );
-};*/
 /*import Style from "./day2/Style";
 
 function App() {

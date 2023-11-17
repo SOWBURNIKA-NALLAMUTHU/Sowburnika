@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+/*import SignUpPage from "./day5/SignUpPage";
 /*import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
@@ -13,7 +14,7 @@ function App() {
     </div>
   );
 }
-export default App; //Default exports*/
+/*export default App; //Default exports*/
 
 /*import HelloWorld from "./day2/HelloWorld";
 
@@ -83,10 +84,40 @@ const App = () => {
 const App = () => {
   return <ToggleMessage />;
 };*/
-import GokuTransformation from "./day3/GokuTransformation";
+/*import GokuTransformation from "./day3/GokuTransformation";
 
 const App = () => {
   return <GokuTransformation />;
+};*/
+
+// src/App.js
+/*import LoginPage from "./day5/LoginPage";
+
+function App() {
+  return (
+    <div>
+      <LoginPage />
+    </div>
+  );
+}*/
+
+import SignUpPage from "./day5/SignUpPage";
+
+const App = () => {
+  return (
+    <div>
+      <SignUpPage />
+    </div>
+  );
 };
+/*import Style from "./day2/Style";
+
+function App() {
+  return (
+    <div>
+      <Style />
+    </div>
+  );
+}*/
 
 export default App;

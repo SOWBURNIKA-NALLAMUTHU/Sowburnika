@@ -36,7 +36,7 @@ function Fruit() {
         renderInput={(params) => (
           <TextField
             {...params}
-            label="Choose a fruit"
+            label="Choose a Fruit"
             data-testid="autocomplete"
             fullWidth
           />

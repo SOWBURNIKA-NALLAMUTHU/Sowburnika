@@ -91,7 +91,7 @@ const App = () => {
 };*/
 
 // src/App.js
-import LoginPage from "./day5/LoginPage";
+/*import LoginPage from "./day5/LoginPage";
 import LoginPageTwo from "./day5/LoginPageTwo";
 
 function App() {
@@ -111,5 +111,10 @@ function App() {
     </div>
   );
 }*/
+import Form from "./day2/Form";
+
+const App = () => {
+  return <Form />;
+};
 
 export default App;

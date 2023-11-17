@@ -56,7 +56,7 @@ const LoginPage = () => {
             variant="contained"
             color="success"
             fullWidth
-            style={{ marginTop: "25px" }}
+            style={{ marginTop: "20px" }}
             onClick={handleLogin}
           >
             Login

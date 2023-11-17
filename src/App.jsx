@@ -111,10 +111,14 @@ function App() {
     </div>
   );
 }*/
-import Form from "./day2/Form";
+/*import Form from "./day2/Form";
 
 const App = () => {
   return <Form />;
 };
-
+*/
+import Fruit from "./day5/Fruit";
+const App = () => {
+  return <Fruit />;
+};
 export default App;

@@ -100,7 +100,16 @@ function App() {
       <LoginPageTwo />
     </div>
   );
-}
+}*/
+/*import SignUpPage from "./day5/SignUpPage";
+
+function App() {
+  return (
+    <div>
+      <SignUpPage />
+    </div>
+  );
+}*/
 
 /*import Style from "./day2/Style";
 
@@ -122,10 +131,15 @@ const App = () => {
   return <Fruit />;
 };*/
 
-import MaterialButton from "./day4/MaterialButton";
+/*import MaterialButton from "./day4/MaterialButton";
 
 const App = () => {
   return <MaterialButton />;
+};*/
+import Front from "./day5/Front";
+
+const App = () => {
+  return <Front />;
 };
 
 export default App;
